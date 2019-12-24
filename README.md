@@ -10,4 +10,4 @@ EndPoints
 
   http://localhost:8085/api/course/get
   http://localhost:8085/api/course/remove?courseID=4
-  http://localhost:8085/api/course/add/
+  http://localhost:8085/api/course/add/ 
