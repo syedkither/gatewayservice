@@ -23,3 +23,10 @@ COURSE-SERVICE
   http://localhost:8085/api/course/get
   http://localhost:8085/api/course/remove?courseID=4
   http://localhost:8085/api/course/add/ 
+
+Content Negotiation end-points
+==============================
+    * Using URL suffixes (extensions) in the request (eg .xml/.json)
+    * Using URL parameter in the request (eg ?format=json)
+    * Using Accept header in the request
+By default, this is the order in which the Spring content negotiation manager will try to use these three strategies. And if none of these are enabled, we can specify a fallback to a default content type of json.
